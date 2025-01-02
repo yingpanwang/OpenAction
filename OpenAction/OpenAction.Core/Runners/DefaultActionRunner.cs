@@ -5,12 +5,22 @@ namespace OpenAction.Core.Runners;
 
 public sealed class DefaultActionRunner : IActionRunner
 {
-    public DefaultActionRunner(ActionExecutionContext context)
+    private readonly ActionExecutionContext _context;
+    private readonly IAction _action;
+    public DefaultActionRunner(ActionExecutionContext context, IAction action)
     {
+        _context = context;
+        _action = action;
     }
 
     public Task RunAsync()
     {
-        throw new NotImplementedException();
+        return _action.ExecuteAsync(_context).AsTask();
     }
+
+    public ValueTask<IActionResult> GetResultAsync()
+    {
+        return ValueTask.FromResult<IActionResult>(default);
+    }
+
 }

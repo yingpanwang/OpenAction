@@ -5,21 +5,54 @@ using OpenAction.Core.Abstraction;
 using OpenAction.Core.Actions;
 using OpenAction.Core.Runners;
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
-using IActionScope scope = new DefaultActionScope();
+await Engine.StartAsync("hello world", []);
 
-var ctx = scope.CreateExecutionContext();
+// using IActionScope scope = new DefaultActionScope();
+// var ctx = scope.CreateExecutionContext();
 
-var action = scope.GetActions().GetEnumerator();
+// var actions = scope.GetActions().GetEnumerator();
 
-while (action.MoveNext())
+// while (actions.MoveNext())
+// {
+//     IAction current = actions.Current;
+
+//     IActionRunner runner = IActionRunnerFactory.Create(ctx, current);
+
+//     await runner.RunAsync().ConfigureAwait(false);
+
+//     var result = await runner.GetResultAsync().ConfigureAwait(false);
+// }
+
+public class Engine
 {
-    IAction current = action.Current;
+    public static async Task StartAsync(string id, Parameter[] inputs)
+    {
+        using var scope = new DefaultActionScope();
 
-    IActionRunner runner = IActionRunnerFactory.Create(ctx, current);
+        var ctx = scope.CreateExecutionContext();
 
-    await runner.RunAsync().ConfigureAwait(false);
+        var actions = scope.GetActions().GetEnumerator();
+
+        while (actions.MoveNext())
+        {
+            IAction current = actions.Current;
+
+            IActionRunner runner = IActionRunnerFactory.Create(ctx, current);
+
+            await runner.RunAsync().ConfigureAwait(false);
+
+            await runner.GetResultAsync().ConfigureAwait(false);
+        }
+    }
+}
+
+public class ActionFlow
+{
+    public required string Id { get; set; }
+
+    public IAction[] Actions { get; set; } = [];
 }
 
 public interface IActionRunnerFactory
@@ -28,17 +61,7 @@ public interface IActionRunnerFactory
     {
         return action switch
         {
-            _ => new DefaultActionRunner(executionContext)
+            _ => new DefaultActionRunner(executionContext, action)
         };
-    }
-}
-
-public abstract class ActionEngineBase(
-    IActionRunnerFactory actionRunnerFactory
-)
-{
-    public Task StartAsync()
-    {
-        return Task.CompletedTask;
     }
 }

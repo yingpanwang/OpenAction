@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "OpenAction.Client",
   "resources": {
-    "hash": "sha256-LWQXNkUu3mn7PrTmFacJ8X24lcxio3hcBlcr/2ygdfQ=",
+    "hash": "sha256-rgi32AIgDmWqlEyhq4L7X0u0wrv4wLKenFUXfUCtjeE=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -212,12 +212,12 @@
       "mscorlib.wasm": "sha256-04e4k5XU8HWGB/dq/2+j84xzzGPflTs0IYWI0OxogVc=",
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
-      "OpenAction.Core.wasm": "sha256-sIC8cbSsqReIsbKrrkvtBAbyXz7VL2tzBmHu0/LKtRc=",
-      "OpenAction.Client.wasm": "sha256-X8U0waI4KdfTX8uBNl7QXVCIcPsvsKdEw6oLIQTYJHU="
+      "OpenAction.Core.wasm": "sha256-O9BAshSa2rsKH1xfukl+F38X+074/4AZmJQzZ+71cU4=",
+      "OpenAction.Client.wasm": "sha256-gFN5F+0OfixYLmztvVxZlxNglOEH6PKcXPG/Xs49ITQ="
     },
     "pdb": {
-      "OpenAction.Core.pdb": "sha256-VQqRRwjQSqr3AJu4P486uBYGF24Ndwapkg+b+Eb0Gyw=",
-      "OpenAction.Client.pdb": "sha256-pBcWmHK/87Sybjp8J1SXemZT9d581DecPkh3Aux5IXU="
+      "OpenAction.Core.pdb": "sha256-AMApCAorP3u3kai9xyiLjfSBuO1rvDUetqUBEQ+04tQ=",
+      "OpenAction.Client.pdb": "sha256-+Y8iLs7pKTI0AuUf6kRK1E8n7adSGzOxJIxRsM4IBag="
     }
   },
   "cacheBootResources": true,

@@ -12,7 +12,7 @@ public interface IAction
 
 public interface IAction<TResult> where TResult : IActionResult
 {
-    public Task<TResult> ExecuteAsync(ActionExecutionContext context);
+    public ValueTask<TResult> ExecuteAsync(ActionExecutionContext context);
 }
 
 public interface IActionResult

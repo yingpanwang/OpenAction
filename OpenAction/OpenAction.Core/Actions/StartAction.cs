@@ -5,8 +5,8 @@ namespace OpenAction.Core.Actions;
 
 public sealed class StartAction : Action
 {
-    public override Task ExecuteAsync(ActionExecutionContext context)
+    public override ValueTask ExecuteAsync(ActionExecutionContext context)
     {
-        throw new NotImplementedException();
+        return ValueTask.CompletedTask;
     }
 }

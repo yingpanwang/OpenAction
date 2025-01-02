@@ -66,3 +66,4 @@ c:\VsWorkSpace\OpenAction\OpenAction\OpenAction\obj\Debug\net8.0\OpenAction.genr
 c:\VsWorkSpace\OpenAction\OpenAction\OpenAction\obj\Debug\net8.0\ref\OpenAction.dll
 c:\VsWorkSpace\OpenAction\OpenAction\OpenAction\bin\Debug\net8.0\OpenAction.Core.dll
 c:\VsWorkSpace\OpenAction\OpenAction\OpenAction\bin\Debug\net8.0\OpenAction.Core.pdb
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction\obj\Debug\net8.0\OpenAction.sourcelink.json

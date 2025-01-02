@@ -9,3 +9,4 @@ c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\OpenAction
 c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\refint\OpenAction.Core.dll
 c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\OpenAction.Core.pdb
 c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\ref\OpenAction.Core.dll
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\OpenAction.Core.sourcelink.json

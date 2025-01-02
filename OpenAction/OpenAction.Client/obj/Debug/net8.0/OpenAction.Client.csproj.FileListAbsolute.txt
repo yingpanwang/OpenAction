@@ -1052,8 +1052,9 @@ c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\bin\Debug\net8.0\wwwroot\
 c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\bin\Debug\net8.0\OpenAction.Core.dll
 c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\bin\Debug\net8.0\OpenAction.Core.pdb
 c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\obj\Debug\net8.0\webcil\OpenAction.Core.wasm
-c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\obj\Debug\net8.0\compressed\uhb9ckuq1a-cxq4uwgrhe.gz
-c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\obj\Debug\net8.0\compressed\81cbsy0rin-3ac620fdka.gz
-c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\obj\Debug\net8.0\compressed\q91whhdpw8-lb8edvt5u0.gz
-c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\obj\Debug\net8.0\compressed\oeyl41veat-0vsx0a7493.gz
-c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\obj\Debug\net8.0\compressed\gur4gbxc2w-py8v9m1cz8.gz
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\obj\Debug\net8.0\OpenAction.Client.sourcelink.json
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\obj\Debug\net8.0\compressed\q91whhdpw8-0kbobuyj86.gz
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\obj\Debug\net8.0\compressed\oeyl41veat-p49rl5co1x.gz
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\obj\Debug\net8.0\compressed\uhb9ckuq1a-3q5lcxlj48.gz
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\obj\Debug\net8.0\compressed\81cbsy0rin-spe21unhjf.gz
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Client\obj\Debug\net8.0\compressed\gur4gbxc2w-0vltv8appq.gz

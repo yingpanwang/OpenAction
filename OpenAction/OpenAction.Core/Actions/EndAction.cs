@@ -7,6 +7,6 @@ public sealed class EndAction : Action
 {
     public override ValueTask ExecuteAsync(ActionExecutionContext context)
     {
-        throw new NotImplementedException();
+        return ValueTask.CompletedTask;
     }
 }

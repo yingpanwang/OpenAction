@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QJEC4T+6s+A=",
+  "dgSpecHash": "YKTAD4TRqHE=",
   "success": true,
-  "projectFilePath": "C:\\VsWorkSpace\\OpenAction\\OpenAction\\OpenAction.Client\\OpenAction.Client.csproj",
+  "projectFilePath": "c:\\VsWorkSpace\\OpenAction\\OpenAction\\OpenAction.Client\\OpenAction.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CYCY\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.11\\microsoft.aspnetcore.authorization.8.0.11.nupkg.sha512",
     "C:\\Users\\CYCY\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.11\\microsoft.aspnetcore.components.8.0.11.nupkg.sha512",

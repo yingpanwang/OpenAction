@@ -6,28 +6,34 @@ namespace OpenAction.Core;
 
 public sealed class DefaultActionScope : IActionScope
 {
+    Guid rId = Guid.NewGuid();
+
     public DefaultActionScope()
     {
-
+        Console.WriteLine($"-- Begin Scope {rId} --");
     }
 
     public ActionExecutionContext CreateExecutionContext()
     {
-        throw new NotImplementedException();
+        return new ActionExecutionContext();
     }
 
     public void Dispose()
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"-- End Scope {rId} --");
     }
 
     public IEnumerable<IAction> GetActions()
     {
-        StartAction start = new() { Id = "" };
+        StartAction start = new() { Id = "1" };
 
         yield return start;
 
-        EndAction end = new() { Id = "" };
+        WriteTextAction write = new() { Id = "2", WriteText = "Hello world" };
+
+        yield return write;
+
+        EndAction end = new() { Id = "3" };
 
         yield return end;
     }
