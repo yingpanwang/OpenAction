@@ -1,0 +1,11 @@
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\bin\Debug\net8.0\OpenAction.Core.deps.json
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\bin\Debug\net8.0\OpenAction.Core.dll
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\bin\Debug\net8.0\OpenAction.Core.pdb
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\OpenAction.Core.GeneratedMSBuildEditorConfig.editorconfig
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\OpenAction.Core.AssemblyInfoInputs.cache
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\OpenAction.Core.AssemblyInfo.cs
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\OpenAction.Core.csproj.CoreCompileInputs.cache
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\OpenAction.Core.dll
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\refint\OpenAction.Core.dll
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\OpenAction.Core.pdb
+c:\VsWorkSpace\OpenAction\OpenAction\OpenAction.Core\obj\Debug\net8.0\ref\OpenAction.Core.dll

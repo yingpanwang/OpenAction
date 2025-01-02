@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\VsWorkSpace\\OpenAction\\OpenAction\\OpenAction.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "c:\\VsWorkSpace\\OpenAction\\OpenAction\\OpenAction.Client\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "c:\\VsWorkSpace\\OpenAction\\OpenAction\\OpenAction.Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OpenAction.Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OpenAction.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OpenAction.Client.props",
+      "PackagePath": "build\\OpenAction.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OpenAction.Client.props",
+      "PackagePath": "buildMultiTargeting\\OpenAction.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OpenAction.Client.props",
+      "PackagePath": "buildTransitive\\OpenAction.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
